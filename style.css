@@ -1,0 +1,302 @@
+.container{
+    margin-bottom: 60px;
+}
+
+.buttons{
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #21B573;
+    color: white;
+    border: none;
+}
+
+
+
+/*------Navbar start-----*/
+.navbar-brand img{
+    height: 50px;
+    width: 150px;
+}
+/*------Navbar END-----*/
+
+
+
+/*-- section1 start --*/
+.second-area{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F0FFF0;
+}
+.half-width{
+    width: 40%
+}
+.half-width h4{
+    color: #FD511A;
+}
+.half-width p{
+    color: #6C6B6B;
+}
+.green-highlight{
+    color: #21B573; 
+}
+.half-width img {
+    width: 100%;
+
+}
+/*-- section1 END --*/
+
+
+
+
+/*-- section2 start --*/
+.third-area-img{
+    width: 200px;
+    height: 200px;
+    background-color: #F0FFF0;
+}
+
+.third-area-img img{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 40px;
+    left: 65px;
+}
+
+.third-area-white-img{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 3px 3px 5px #afafb1;
+    border-radius: 5%;
+
+}
+.third-area-white-img img{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 40px;
+    left: 65px;   
+}
+/*-- section2 END --*/
+
+
+
+
+
+/*-- section3 Start --*/
+.card img{
+    padding: 15px 12px 0px 12px;
+}
+.card-title {
+    color: #413960;
+}
+.card-text{
+    color:#585859;
+}
+.card-deck .card{
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 3px 3px 5px #ececf0;
+    border: 1px solid white;
+
+}
+
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.info p{
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+    right: 12px;
+    color: #585859;
+}
+/*-- section3 END --*/
+
+
+
+/*-- section4 start --*/
+article{
+    position: relative;
+    top: 120px;
+    right: 30px;
+   
+}
+article h4{
+    font-size: 19px;
+    color: #413960;
+}
+article p{
+    color: #585859;
+    font-size: 14px;
+    text-align: center;
+    
+}
+h3{
+    text-align: center;
+}
+
+
+.fourth-section img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 20px;
+    
+}
+.fourth-section p{
+    color: #000000;
+    text-align: justify;
+    position: relative;
+    left: 25px;
+}
+
+.test{
+    padding top: 500px ;
+}
+/*-- section4 start --*/
+
+
+
+/*--Footer Start--*/
+
+.card .card-footer{
+    border: none;
+    background-color: #ffffff;
+}
+.card-footer img{
+    height: 40px;
+    width:  50px;
+}
+
+footer{
+    display: flex;
+    background-color: #282531;
+    height: 300px;
+    flex-direction: column;
+    
+
+}
+.white-highlight{
+    color: white;
+    font-weight: 700;
+}
+footer p{
+    color: #FFFFFF;
+    width: 40%;
+    position: relative;
+    bottom: 100px;
+}
+
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.course, .terms , .useful-link{
+    margin-top: 25px;
+
+}
+.footer-info h6{
+    color: #dad6d6;
+    font-size: px;
+}
+
+
+small{
+    color: #CDCDCD;
+    position: relative;
+    top: 40px;
+    left: 450px;
+}
+/*--Footer END--*/
+
+
+/*--Who I am Start--*/
+
+.about
+{
+    padding-top: 60px;
+    margin-bottom: -130px;
+}
+.profile-img
+{
+    height: 500px;
+    box-shadow: 0 0 7px;
+    transition: 1s;
+}
+
+.profile-img:hover
+{
+    box-shadow: 0 0 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    transform: scale(1.1);
+
+}
+
+.about h3{
+    color: #FD511A;
+}
+/*--Who I am ENd--*/
+
+/*--Media Queries Start--*/
+@media (max-width: 700px) {
+   
+    body{
+       font-family: 'Poppins', sans-serif;
+       margin: 0px;
+    } 
+
+    nav{
+        align-content: flex-start;
+    }
+
+    .container{
+        padding: 50px;
+    }
+
+    .footer-info{
+        flex-direction: row;
+       
+    }
+   
+   }
+@media (min-width: 1200px) {
+    .container{
+    flex-direction: column;
+    }
+    body{
+        font-family: 'Poppins', sans-serif;
+        margin: 0px;
+    }
+    
+    .third-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+
+    .fourth-section{
+    width: 60%;
+    position: relative;
+    left: 160px;
+    top: 35px;
+    display: grid;
+    
+}
+
+}
+
+   /*--Media Queries END--*/
+
+   
