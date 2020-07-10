@@ -8,6 +8,7 @@
     background-color: #21B573;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -226,6 +227,9 @@ small{
 {
     padding-top: 60px;
     margin-bottom: -130px;
+    background-image: url(/images/my-bg.png);
+    background-repeat: no-repeat;
+    
 }
 .profile-img
 {
